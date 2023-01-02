@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fonts.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu" ><span class="icon-menu" ></span>Menu</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio" name="Inicio"><span class="icon-home2"></span>Inicio</a></li>
+                <li><a href="#"><span class="icon-envelop"></span>Contacto</a></li>
+                <li><a href="#" id="show-login"><span class="icon-pencil"></span>Registrar</a></li>
+                <li><a href="#"><span class="icon-share2"></span>Compartir</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="contenedor1">
+            <a name="inicio"></a><div class="contenedor2">
+            <img src="img/gatito1.jpg" alt="gatito1">
+            </div>
+            <div class="contenedor3">
+                <h1 class="title">Gatos domesticos</h1>
+            </div>
+            <div class="contenedor4">
+                <p class="text">Los gatos domésticos, sea cual sea su raza, son todos miembros de una misma especie, Felis silvestris catus, que mantiene una relación con los humanos desde hace mucho tiempo.</p>
+            </div>
+        </div>
+        
+        <div class="contenedor1">
+            <div class="contenedor3">
+                <h1 class="title">El grado de flexibilidad</h1>
+            </div>
+            <div class="contenedor4">
+                <p class="text">Es mayor en el caso de que decidas en los gatos en adopción, debido a que suelen ser más independientes que un perro y no necesitan de paseos diarios. Pero, en cualquier caso, tu ritmo de vida se debe adaptar a sus necesidades de atención y cuidado, sobre todo si decides adoptar gatitos bebés.</p>
+            </div>
+            
+            <div class="contenedor2">
+                <img src="img/gatito2.jpg" alt="">
+            </div>
+        </div>
+        <div class="contenedor1">
+            <div class="contenedor2">
+            <img src="img/gatito3.jpg" alt="gatito1">
+            </div>
+            <div class="contenedor3">
+                <h1 class="title">Predisposición al desarrollo de alergias</h1>
+            </div>
+            <div class="contenedor4">
+                <p class="text">Tuya o la de otras personas que vayan a convivir con él. Pese a que muchos propietarios que las padecen afirman que no les afecta el tener a un gato en casa, es conveniente que antes de elegir alguno de los gatos adopción o gatitos bebés, se realicen las pruebas pertinentes para evitar que la alergia se manifieste cuando ya hayas adquirido al animal. También puedes consultar con un veterinario para que te indique cuáles son las razas con menores niveles de alérgenos.</p>
+            </div>
+        </div>
+        
+        <div class="contenedor1">
+            <div class="contenedor3">
+                <h1 class="title">Desarrollo de rutinas de higiene diarias</h1>
+            </div>
+            <div class="contenedor4">
+                <p class="text">Pero también se caracterizan por su excesiva energía. Es muy posible que, en su afán por jugar y descubrir, se esconda con facilidad e intente arañar tu ropa u otros objetos de la casa, como muebles o cortinas. Disciplina y calma te pueden ayudar. Adquiere un rascador y algún juguete en tiendas especializadas, y familiarízalo con ellos lo antes posible. De esta manera, conseguirás que se habitúe y no dañe otras superficies.</p>
+            </div>
+            
+            <div class="contenedor2">
+                <img src="img/gatito4.jpg" alt="">
+            </div>
+        </div>
+            </section>
+        
+        
+    
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form" action="action_page.php">
+            <h2>Registro</h2>
+            <div class="form-element">
+                <label for="name">Nombre</label>
+                <input type="text" id="iname" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-element">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Recordar datos</label>
+            </div>
+            <div class="form-element">
+                <button onclick="enviarRegistro()">Registrar</button>
+            </div> 
+            
+        </div>
+    </div>
+
+
+    <script src="https://releases.jquery.com/git/jquery-1.x-git.js"></script>
+    <script src="menu.js"></script>
+    
+</body>
+</html>
